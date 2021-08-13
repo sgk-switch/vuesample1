@@ -136,7 +136,7 @@
         this.closeDialog()
         this.getDialog = ""
         this.getQuizData = ""
-        this.$router.go({path: this.$router.currentRoute.path, force: true})
+        this.$router.go({path:'/', force: true})
         this.nowQuestion = 0
       },
 
